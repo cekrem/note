@@ -47,11 +47,10 @@ if [ $# -eq 0 ]; then
     fzf --ansi --preview "bat --color=always {1} --highlight-line {2}" |
     head -n1 | awk '{print $1 " +" $2;}')
 
-  if [[ -z "$ref" ]]; then
-    exit 0
+  if [[ "$ref" ]]; then
+    vim $ref
   fi
 
-  vim $ref
   exit 0
 fi
 
