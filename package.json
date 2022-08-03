@@ -1,0 +1,22 @@
+{
+  "name": "ripnote",
+  "version": "1.0.0",
+  "description": "Tiny utility to create and manage notes quickly. Requires vim, ripgrep, fzf and bat.",
+  "bin": {
+    "ripnote": "index.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cekrem/ripnote"
+  },
+  "keywords": [
+    "cli",
+    "notes",
+    "productivity"
+  ],
+  "author": {
+    "name": "Christian Ekrem",
+    "email": "christianekrem@gmail.com"
+  },
+  "license": "ISC"
+}
