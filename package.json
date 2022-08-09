@@ -1,9 +1,10 @@
 {
   "name": "ripnote",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tiny utility to create and manage notes quickly. Requires vim, ripgrep, fzf and bat.",
   "bin": {
-    "ripnote": "index.sh"
+    "ripnote": "index.sh",
+    "rn": "index.sh"
   },
   "repository": {
     "type": "git",

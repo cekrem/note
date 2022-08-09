@@ -1,6 +1,10 @@
 # Install
 
-`npm install -g ripnote` or `yarn global add ripnote`
+`npm install -g ripnote` or `yarn global add ripnote` installs `ripnote` (and the `rn` alias) globally.
+
+# Dependencies
+
+Ripnote requires ripgrep, fzf and bat; these can all be automatically installed using homebrew upon first ripnote launch.
 
 # Create new note
 
@@ -20,4 +24,4 @@ You can override `NOTE_PATH` (default `~/notes`). That's it.
 
 # Screenshot
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.gif)
